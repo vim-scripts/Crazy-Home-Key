@@ -1,24 +1,39 @@
-" crazyhomekey.vim - Finetune Home key for Programmer
-" Maintainer:   Kent Chen
-" Version:      1.0
+" ============================================================================
+" File:          crazyhomekey.vim
+" Description:   Finetune Home key operation for Programmer
+" Maintainer:    Kent Chen <chenkaie at gmail dot com>
+" Version:       1.0
+" Last Modified: Fri Sep 04, 2009  03:54PM
+" License:       This program is free software. It comes without any warranty,
+"                to the extent permitted by applicable law. You can redistribute
+"                it and/or modify it under the terms of the Do What The Fuck You
+"                Want To Public License, Version 2, as published by Sam Hocevar.
+"                See http://sam.zoy.org/wtfpl/COPYING for more details.
 "
 " Usage:
+" Trigger <Home> key arbitrarily in vim or follow below steps:
+"
 "    a. Normal mode
-"        1. Press <HOME> key in the middle of a line
-"        2. Press <HOME> key again
+"        1. Press <Home> key in the middle of a line
+"        2. Press <Home> key again
+"
 "    b. Insert mode
-"       do the same as above. It works well ^_^
+"        do the same as above. It works well ^_^
 "
 " Installation:
 " Place in ~/.vim/plugin (to load at start up)
 "
-" Recommanded: 
+" Recommended: 
 " Add below mapping to your .vimrc or uncomment below 
 " Use <Alt-H> move to home, <Alt-L> move to the end
 "     nmap h      :call ToggleHomeActionN()<CR>
 "     imap h <ESC>:call ToggleHomeActionI()<CR>
 "     map l $
 "
+" History:
+"    1.0  Initial Release
+"    1.1  Fine tune this script and layout
+" ============================================================================
 
 if v:version < 700
     finish
